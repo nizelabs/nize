@@ -1,9 +1,0 @@
-version: '3.9'
-services:
-  database:
-    image: 'docker.io/postgres:15.1'
-    env_file:
-      - './compose.env'
-    ports:
-      - '5432:5432'
-    restart: 'on-failure'
