@@ -1,0 +1,33 @@
+{
+	"name": "nize",
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": {
+		"name": "Izzuddin Natsir"
+	},
+	"files": [
+		"dist",
+		"src"
+	],
+	"exports": {
+		".": {
+			"default": "./dist/index.cjs",
+			"import": "./dist/index.mjs",
+			"module": "./dist/index.mjs",
+			"require": "./dist/index.cjs",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"dependencies": {
+		"@prisma/generator-helper": "^4.9.0",
+		"@prisma/internals": "^4.9.0",
+		"fs-extra": "^11.1.0"
+	},
+	"devDependencies": {
+		"@prisma/client": "^4.9.0",
+		"@trpc/server": "^10.9.1",
+		"@types/fs-extra": "^11.0.1",
+		"@types/node": "^18.11.18",
+		"prisma": "^4.9.0"
+	}
+}

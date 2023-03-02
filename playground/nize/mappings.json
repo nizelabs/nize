@@ -1,0 +1,28 @@
+{
+  "modelOperations": [
+    {
+      "model": "User",
+      "aggregate": "aggregateUser",
+      "createMany": "createManyUser",
+      "createOne": "createOneUser",
+      "deleteMany": "deleteManyUser",
+      "deleteOne": "deleteOneUser",
+      "findFirst": "findFirstUser",
+      "findFirstOrThrow": "findFirstUserOrThrow",
+      "findMany": "findManyUser",
+      "findUnique": "findUniqueUser",
+      "findUniqueOrThrow": "findUniqueUserOrThrow",
+      "groupBy": "groupByUser",
+      "updateMany": "updateManyUser",
+      "updateOne": "updateOneUser",
+      "upsertOne": "upsertOneUser"
+    }
+  ],
+  "otherOperations": {
+    "read": [],
+    "write": [
+      "executeRaw",
+      "queryRaw"
+    ]
+  }
+}

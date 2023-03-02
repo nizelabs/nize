@@ -1,0 +1,9 @@
+**/build
+**/dist
+**/node_modules
+**/.cache
+**/.DS_Store
+**/.env
+**/.env.*
+**/*-debug.log*
+**/*-error.log*

@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"workspaces": [
+		"playground",
+		"packages/*"
+	],
+	"packageManager": "yarn@4.0.0-rc.37",
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"typescript": "5.0.0-beta"
+	}
+}
